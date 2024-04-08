@@ -5,8 +5,10 @@ import { IoIosArrowRoundForward } from "react-icons/io";
 export default function MoreInfo({ label }) {
   return (
     <Container className="footer">
-      <Link className="link-footer">{label}</Link>
-      <IoIosArrowRoundForward size={28} />
+      <Link className="link-footer">
+        {label}
+        <IoIosArrowRoundForward size={28} />
+      </Link>
     </Container>
   );
 }

@@ -56,6 +56,16 @@ export const Navigation = styled.nav`
     font-size: 16px;
     font-family: "Open Sans";
     font-weight: 700;
+
+    .nav-item {
+      border-bottom: 2px solid transparent;
+      padding-bottom: 4px;
+      cursor: pointer;
+      transition: all 0.3s ease-in-out;
+      &:hover {
+        border-bottom: 2px solid var(--cor-primaria);
+      }
+    }
   }
 `;
 
