@@ -1,4 +1,5 @@
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 import RoutesApp from "../routes";
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <>
       <Header />
       <RoutesApp />
+      <Footer />
     </>
   );
 }
