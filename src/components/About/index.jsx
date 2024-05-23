@@ -1,12 +1,13 @@
 import { Container, Main } from "./styles.js";
 import Button from "../Button/index.jsx";
+import Luxury from "../../assets/luxury.png";
 
 export default function About() {
   return (
     <Container>
       <Main></Main>
       <div className="absolute-position">
-        <img src="" alt="" />
+        <img src={Luxury} alt="" />
         <div className="text-area">
           <h2 className="title">Affordable Luxury At Your Doorstep</h2>
           <span className="text">

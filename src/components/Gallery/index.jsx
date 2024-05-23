@@ -1,4 +1,7 @@
 import { Container } from "./styles.js";
+import Inspired01 from "../../assets/inspired01.png";
+import Inspired02 from "../../assets/inspired02.png";
+import Inspired03 from "../../assets/inspired03.png";
 
 export default function Gallery() {
   return (
@@ -9,10 +12,10 @@ export default function Gallery() {
         beautiful flooring galleries to get started.
       </p>
       <div className="fotos">
-        <img src="" alt="" />
+        <img src={Inspired01} alt="" />
         <div className="imagens-pequenas">
-          <img src="" alt="" />
-          <img src="" alt="" />
+          <img src={Inspired02} alt="" />
+          <img src={Inspired03} alt="" />
         </div>
       </div>
     </Container>

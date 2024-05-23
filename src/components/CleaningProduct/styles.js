@@ -36,4 +36,8 @@ export const Image = styled.img`
   width: 300px;
   background-color: var(--cor-primaria);
   border-radius: 8px;
+
+  webkit-box-shadow: 0px 0px 65px -4px rgba(133, 133, 133, 1);
+  -moz-box-shadow: 0px 0px 65px -4px rgba(133, 133, 133, 1);
+  box-shadow: 0px 0px 65px -4px rgba(133, 133, 133, 1);
 `;

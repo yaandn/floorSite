@@ -1,10 +1,10 @@
 import { Container } from "./styles";
 import MoreInfo from "../MoreInfo";
 
-export default function Shortcut({ title, text, more }) {
+export default function Shortcut({ title, text, more, imgUrl }) {
   return (
     <Container>
-      <img src="" alt="" />
+      <img src={imgUrl} />
       <h2>{title}</h2>
       <p>{text}</p>
       <MoreInfo label={more} />

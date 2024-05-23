@@ -1,5 +1,6 @@
 import { Container, Main } from "./styles.js";
 import Button from "../Button/index.jsx";
+import Quality from "../../assets/quality.png";
 
 export default function ListQualities() {
   return (
@@ -18,7 +19,7 @@ export default function ListQualities() {
           </ul>
           <Button label="Learn more about us" path="#" />
         </div>
-        <img src="" alt="" />
+        <img src={Quality} alt="" />
       </div>
     </Container>
   );

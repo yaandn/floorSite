@@ -9,28 +9,30 @@ export const Container = styled.section`
   gap: 32px;
   margin-top: 40px;
   margin-bottom: 40px;
+`;
 
-  div {
-    width: 600px;
-    height: 300px;
-    background-color: darkgray;
-    border-radius: 16px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding: 0 32px;
+export const CardShop = styled.div`
+  width: 600px;
+  height: 300px;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url(${({ urlImg }) => urlImg});
 
-    h2 {
-      margin-top: 32px;
-    }
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 32px;
 
-    p {
-      margin-top: 16px;
-    }
+  h2 {
+    margin-top: 32px;
+  }
 
-    button {
-      margin-top: 24px;
-    }
+  p {
+    margin-top: 16px;
+  }
+
+  button {
+    margin-top: 24px;
   }
 `;

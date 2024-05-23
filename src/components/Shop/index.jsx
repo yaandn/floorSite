@@ -1,26 +1,28 @@
-import { Container } from "./styles";
+import { Container, CardShop } from "./styles";
 import Button from "../Button";
+
+import BgFloor from "../../assets/bgfloor.png";
 
 export default function Shop() {
   return (
     <Container>
-      <div>
-        <h2>Shop In-Store</h2>
+      <CardShop urlImg={BgFloor}>
+        <h2>Shop Online</h2>
         <p>
-          Come by our showroom and see what we have to offer. Our knowledgeable
-          staff is ready to assist you in selecting the right flooring to ensure
-          your satisfaction for years to come.
+          Explore our range of flooring options and make your purchase
+          conveniently online. We are here to help you choose the perfect
+          flooring for you, ensuring your satisfaction for years to come.
         </p>
         <Button label="Contact us" />
-      </div>
-      <div>
+      </CardShop>
+      <CardShop urlImg={BgFloor}>
         <h2>Shop At Home</h2>
         <p>
           Don’t have time to stop by our showroom? We can bring samples right to
           your front door. Just schedule an appointment to get started.
         </p>
         <Button label="Get Started" />
-      </div>
+      </CardShop>
     </Container>
   );
 }
