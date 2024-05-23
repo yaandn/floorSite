@@ -12,8 +12,20 @@ export default function Footer() {
     <Container>
       <Main>
         <div className="icons">
-          <FaInstagram color="#fff" size={28} className="icon" />
-          <FaFacebook color="#fff" size={28} className="icon" />
+          <a
+            href="https://www.instagram.com/easyfloorkc/"
+            target="_blank"
+            referrerPolicy="no-referrer"
+          >
+            <FaInstagram color="#fff" size={28} className="icon" />
+          </a>
+          <a
+            href="https://facebook.com/easyfloorks"
+            target="_blank"
+            referrerPolicy="no-referrer"
+          >
+            <FaFacebook color="#fff" size={28} className="icon" />
+          </a>
         </div>
         <div className="nav">
           <div className="paths">
@@ -28,7 +40,7 @@ export default function Footer() {
           </div>
           <div className="infos">
             <span>
-              11080 Strang Line Road Lenexa, KS 66215 | (913) 800-7397
+              12318 s locust cir Olathe Kansas City 66062 | (913) 538-8541
             </span>
           </div>
           <div className="cards">
@@ -42,7 +54,7 @@ export default function Footer() {
           <MdOutlineKeyboardDoubleArrowUp size={40} color="#fff" />
         </a>
       </Main>
-      <span className="copy">Copyright © 2024 Express Hardwood Floors</span>
+      <span className="copy">Copyright © 2024 Easy Floor WebSite</span>
     </Container>
   );
 }

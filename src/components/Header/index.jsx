@@ -1,20 +1,21 @@
 import { Container, Logo, Navigation, Search } from "./styles";
 import { FaLocationDot, FaPhone } from "react-icons/fa6";
 import { IoIosSearch } from "react-icons/io";
+import LogoImg from "../../assets/logo.png";
 
 export default function Header() {
   return (
     <Container>
-      <Logo />
+      <Logo src={LogoImg} />
       <Navigation>
         <div className="infos">
           <div className="item">
             <FaPhone size={18} />
-            <span>(913) 800-7397</span>
+            <span>(913) 538-8541</span>
           </div>
           <div className="item">
             <FaLocationDot size={18} />
-            <span>11080 Strang Line Road Lenexa, KS 66215</span>
+            <span>12318 s locust cir Olathe Kansas City 66062</span>
           </div>
         </div>
         <div className="nav">

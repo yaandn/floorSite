@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.header`
   width: 100%;
-  padding: 32px 0;
+
   position: absolute;
   display: flex;
   flex-direction: row;
@@ -12,9 +12,9 @@ export const Container = styled.header`
 `;
 
 export const Logo = styled.img`
-  width: 150px;
-  background-color: #fff;
-  height: 90px;
+  width: 200px;
+  height: 200px;
+  padding-bottom: 40px;
 `;
 
 export const Navigation = styled.nav`

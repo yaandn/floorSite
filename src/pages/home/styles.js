@@ -3,8 +3,8 @@ import styled from "styled-components";
 export const Container = styled.div`
   width: 100%;
   min-height: 800px;
-  //background-image: url(${(props) => props.imgUrl});
-  background-color: lightgray;
+  background-image: url(${(props) => props.imgUrl});
+
   display: flex;
   align-items: center;
   justify-content: center;

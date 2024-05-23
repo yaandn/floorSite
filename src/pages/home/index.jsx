@@ -6,8 +6,8 @@ import Shortcuts from "../../components/Shortcuts";
 import Shop from "../../components/Shop";
 import ListQualities from "../../components/ListQualities";
 import Gallery from "../../components/Gallery";
-
-import imageHome from "../../assets/home.jpg";
+import CleaningProducts from "../../components/CleaningProducts";
+import imageHome from "../../assets/home.png";
 
 export default function Home() {
   return (
@@ -15,7 +15,10 @@ export default function Home() {
       <Container imgUrl={imageHome}>
         <TitleContainer>
           <span>Commitment To Excellence</span>
-          <Button label="Read our Reviews" path="#" />
+          <Button
+            label="Contact us"
+            path="https://wa.me/19133076990?text=Hello,%20I%20would%20like%20to%20know%20about%20your%20flooring%20services"
+          />
         </TitleContainer>
       </Container>
       <Products />
@@ -23,6 +26,7 @@ export default function Home() {
       <Shortcuts />
       <Shop />
       <ListQualities />
+      <CleaningProducts />
       <Gallery />
     </>
   );
