@@ -9,6 +9,10 @@ export const Container = styled.header`
   align-items: center;
   justify-content: center;
   gap: 160px;
+
+  @media (max-width: 500px) {
+    display: none;
+  }
 `;
 
 export const Logo = styled.img`

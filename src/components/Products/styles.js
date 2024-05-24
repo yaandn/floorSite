@@ -13,9 +13,19 @@ export const Container = styled.div`
     margin-top: 200px;
     margin-bottom: 60px;
 
+    @media (max-width: 500px) {
+      margin-top: 40px;
+      margin-bottom: 40px;
+    }
+
     span {
       font-family: var(--fonte-titulos);
       font-size: 44px;
+
+      @media (max-width: 500px) {
+        font-size: 32px;
+        text-align: center;
+      }
     }
   }
 `;
@@ -28,4 +38,11 @@ export const CardContainer = styled.div`
   gap: 12px;
   justify-content: center;
   align-items: center;
+
+  @media (max-width: 500px) {
+    position: relative;
+    bottom: 0;
+    flex-direction: column;
+    margin-top: 40px;
+  }
 `;

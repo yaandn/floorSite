@@ -8,6 +8,10 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+
+  @media (max-width: 500px) {
+    min-height: 400px;
+  }
 `;
 
 export const TitleContainer = styled.div`

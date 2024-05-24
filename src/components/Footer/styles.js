@@ -14,6 +14,12 @@ export const Container = styled.footer`
     width: 1000px;
     margin: 0 auto;
     margin-top: 16px;
+
+    @media (max-width: 500px) {
+      display: block;
+      text-align: center;
+      width: 100%;
+    }
   }
 `;
 
@@ -25,12 +31,25 @@ export const Main = styled.div`
   flex-direction: row;
   margin: 0 auto;
 
+  @media (max-width: 500px) {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    padding-top: 32px;
+  }
+
   border-bottom: 1px solid #fff;
 
   justify-content: space-around;
 
   .icons {
     display: flex;
+    @media (max-width: 500px) {
+      width: 80%;
+      margin-bottom: 24px;
+      gap: 16px;
+    }
 
     gap: 8px;
 
@@ -49,8 +68,11 @@ export const Main = styled.div`
     display: flex;
     flex-direction: column;
     width: 700px;
-
     align-items: center;
+
+    @media (max-width: 500px) {
+      width: 100%;
+    }
 
     .paths {
       width: 60%;
@@ -61,6 +83,10 @@ export const Main = styled.div`
       align-items: center;
       gap: 24px;
       margin-bottom: 40px;
+
+      @media (max-width: 500px) {
+        width: 80%;
+      }
 
       a {
         text-decoration: none;
@@ -77,8 +103,18 @@ export const Main = styled.div`
     }
   }
 
+  .icon-up {
+    @media (max-width: 500px) {
+      display: none;
+    }
+  }
+
   .infos {
     margin-bottom: 24px;
+
+    @media (max-width: 500px) {
+      width: 80%;
+    }
     span {
       font-size: 18px;
       color: #fff;
@@ -90,6 +126,10 @@ export const Main = styled.div`
     align-items: center;
     justify-content: center;
     gap: 16px;
+
+    @media (max-width: 500px) {
+      margin-bottom: 24px;
+    }
 
     img {
       width: 50px;

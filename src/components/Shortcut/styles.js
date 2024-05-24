@@ -2,6 +2,12 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   width: 400px;
+  @media (max-width: 500px) {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
 
   img {
     background-color: lightgray;

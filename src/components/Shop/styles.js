@@ -9,6 +9,9 @@ export const Container = styled.section`
   gap: 32px;
   margin-top: 40px;
   margin-bottom: 40px;
+  @media (max-width: 500px) {
+    flex-direction: column;
+  }
 `;
 
 export const CardShop = styled.div`
@@ -23,6 +26,10 @@ export const CardShop = styled.div`
   justify-content: center;
   flex-direction: column;
   padding: 0 32px;
+
+  @media (max-width: 500px) {
+    width: 90%;
+  }
 
   h2 {
     margin-top: 32px;

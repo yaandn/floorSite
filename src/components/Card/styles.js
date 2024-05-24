@@ -13,6 +13,13 @@ export const Container = styled.div`
   flex-direction: column;
   padding: 32px 0;
 
+  @media (max-width: 500px) {
+    width: 90%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
   .title {
     font-size: 24px;
     text-decoration: none;

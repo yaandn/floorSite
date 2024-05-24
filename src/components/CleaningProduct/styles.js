@@ -10,6 +10,14 @@ export const Container = styled.div`
   align-items: center;
   margin-bottom: 40px;
   border-radius: 8px;
+
+  @media (max-width: 500px) {
+    width: 100%;
+    flex-direction: column;
+    gap: 24px;
+    height: auto;
+    padding: 16px;
+  }
 `;
 
 export const Title = styled.h2`
@@ -29,6 +37,10 @@ export const Infos = styled.div`
   width: 600px;
   height: 100%;
   justify-content: center;
+
+  @media (max-width: 500px) {
+    width: 100%;
+  }
 `;
 
 export const Image = styled.img`

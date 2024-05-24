@@ -8,4 +8,10 @@ export const Container = styled.section`
   align-items: center;
   justify-content: center;
   gap: 24px;
+
+  @media (max-width: 500px) {
+    flex-direction: column;
+    width: 90%;
+    margin: 40px auto;
+  }
 `;

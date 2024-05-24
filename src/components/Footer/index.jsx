@@ -50,7 +50,7 @@ export default function Footer() {
             <img src={card4} alt="" />
           </div>
         </div>
-        <a href="#">
+        <a href="#" className="icon-up">
           <MdOutlineKeyboardDoubleArrowUp size={40} color="#fff" />
         </a>
       </Main>
