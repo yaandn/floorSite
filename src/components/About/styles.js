@@ -6,11 +6,11 @@ export const Container = styled.section`
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 32px;
 
   @media (max-width: 500px) {
     height: fit-content;
     background-color: var(--cor-primaria);
+    padding: 32px;
   }
 
   img {

@@ -1,9 +1,9 @@
 import { Container } from "./styles";
-import { Link } from "react-router-dom";
+
 export default function Button({ label, path }) {
   return (
-    <Link to={path}>
+    <a href={path} target="_blank">
       <Container>{label}</Container>
-    </Link>
+    </a>
   );
 }

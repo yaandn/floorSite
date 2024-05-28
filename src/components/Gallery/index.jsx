@@ -5,7 +5,7 @@ import Inspired03 from "../../assets/inspired03.png";
 
 export default function Gallery() {
   return (
-    <Container>
+    <Container id="inspiration">
       <h2>Get Inspired</h2>
       <p>
         Let us help choose the right flooring style for your home! Browse our

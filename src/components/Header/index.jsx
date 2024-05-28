@@ -19,12 +19,21 @@ export default function Header() {
           </div>
         </div>
         <div className="nav">
-          <div className="nav-item">Products</div>
-          <div className="nav-item">Services</div>
-          <div className="nav-item">Reviews</div>
-          <div className="nav-item">Inspiration</div>
-          <div className="nav-item">About Us</div>
-          <div className="nav-item">Contact</div>
+          <a href="#services" className="nav-item">
+            Services
+          </a>
+          <a href="#reviews" className="nav-item">
+            Reviews
+          </a>
+          <a href="#inspiration" className="nav-item">
+            Inspiration
+          </a>
+          <a href="#about" className="nav-item">
+            About Us
+          </a>
+          <a href="#contact" className="nav-item">
+            Contact
+          </a>
         </div>
       </Navigation>
       <Search>

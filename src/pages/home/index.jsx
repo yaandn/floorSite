@@ -8,10 +8,12 @@ import ListQualities from "../../components/ListQualities";
 import Gallery from "../../components/Gallery";
 import CleaningProducts from "../../components/CleaningProducts";
 import imageHome from "../../assets/home.png";
+import { MenuMobile } from "../../components/MenuMobile";
 
 export default function Home() {
   return (
     <>
+      <MenuMobile />
       <Container imgUrl={imageHome}>
         <TitleContainer>
           <span>Commitment To Excellence</span>

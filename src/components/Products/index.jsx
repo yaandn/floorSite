@@ -18,7 +18,10 @@ export default function Products() {
       </CardContainer>
       <div className="call-to-action">
         <span>Looking For New Floors In The Lenexa, Kansas Area?</span>
-        <Button label="View All Products" path="#" />
+        <Button
+          label="View All Products"
+          path="https://www.instagram.com/easyfloorkc/"
+        />
       </div>
     </Container>
   );

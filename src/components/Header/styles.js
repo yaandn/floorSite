@@ -65,6 +65,9 @@ export const Navigation = styled.nav`
       border-bottom: 2px solid transparent;
       padding-bottom: 4px;
       cursor: pointer;
+      text-decoration: none;
+      color: #fff;
+      
       transition: all 0.3s ease-in-out;
       &:hover {
         border-bottom: 2px solid var(--cor-primaria);

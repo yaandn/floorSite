@@ -9,7 +9,7 @@ import { MdOutlineKeyboardDoubleArrowUp } from "react-icons/md";
 
 export default function Footer() {
   return (
-    <Container>
+    <Container id="contact">
       <Main>
         <div className="icons">
           <a
@@ -29,14 +29,10 @@ export default function Footer() {
         </div>
         <div className="nav">
           <div className="paths">
-            <a href="#">HOME</a>
-            <a href="#">COMPANY</a>
-            <a href="#">PRODUCTS</a>
-            <a href="#">CONTACT</a>
-            <a href="#">INSPIRATION</a>
-            <a href="#">REVIEWS</a>
-            <a href="#">SERVICES</a>
-            <a href="#">LOCATION</a>
+            <a href="#services">SERVICES</a>
+            <a href="#inspiration">INSPIRATION</a>
+            <a href="#reviews">REVIEWS</a>
+            <a href="#location">LOCATION</a>
           </div>
           <div className="infos">
             <span>

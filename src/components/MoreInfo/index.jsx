@@ -1,14 +1,14 @@
 import { Container } from "./styles";
-import { Link } from "react-router-dom";
+
 import { IoIosArrowRoundForward } from "react-icons/io";
 
-export default function MoreInfo({ label }) {
+export default function MoreInfo({ label, path }) {
   return (
     <Container className="footer">
-      <Link className="link-footer">
+      <a href={path} className="link-footer" target="_blank">
         {label}
         <IoIosArrowRoundForward size={28} />
-      </Link>
+      </a>
     </Container>
   );
 }

@@ -4,7 +4,7 @@ import Quality from "../../assets/quality.png";
 
 export default function ListQualities() {
   return (
-    <Container>
+    <Container id="services">
       <Main></Main>
       <div className="absolute-position">
         <div className="text-area">
