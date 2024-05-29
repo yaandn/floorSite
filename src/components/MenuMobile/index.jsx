@@ -24,37 +24,67 @@ export const MenuMobile = () => {
         <IoCloseSharp size={28} color="#fff" onClick={() => closeMenu()} />
       </Header>
       <Navigation>
-        <a href="#">
+        <a
+          href="#"
+          onClick={() => {
+            closeMenu();
+          }}
+        >
           <ItemMenu>
             <FaHome className="icon" />
             <span>Home</span>
           </ItemMenu>
         </a>
-        <a href="#">
+        <a
+          href="#reviews"
+          onClick={() => {
+            closeMenu();
+          }}
+        >
           <ItemMenu>
             <FaAlignLeft className="icon" />
             <span>Reviews</span>
           </ItemMenu>
         </a>
-        <a href="#">
+        <a
+          href="#contact"
+          onClick={() => {
+            closeMenu();
+          }}
+        >
           <ItemMenu>
             <FaPhoneAlt className="icon" />
             <span>Contact</span>
           </ItemMenu>
         </a>
-        <a href="#">
+        <a
+          href="#about"
+          onClick={() => {
+            closeMenu();
+          }}
+        >
           <ItemMenu>
             <FaUser className="icon" />
             <span>About us</span>
           </ItemMenu>
         </a>
-        <a href="#">
+        <a
+          href="#services"
+          onClick={() => {
+            closeMenu();
+          }}
+        >
           <ItemMenu>
             <FaGripHorizontal className="icon" />
             <span>Services</span>
           </ItemMenu>
         </a>
-        <a href="#">
+        <a
+          href="#inspiration"
+          onClick={() => {
+            closeMenu();
+          }}
+        >
           <ItemMenu>
             <FaImage className="icon" />
             <span>Inspiration</span>

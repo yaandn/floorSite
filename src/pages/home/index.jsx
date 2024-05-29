@@ -8,6 +8,7 @@ import ListQualities from "../../components/ListQualities";
 import Gallery from "../../components/Gallery";
 import CleaningProducts from "../../components/CleaningProducts";
 import imageHome from "../../assets/home.png";
+import { Services } from "../../components/Services";
 import { MenuMobile } from "../../components/MenuMobile";
 
 export default function Home() {
@@ -30,6 +31,7 @@ export default function Home() {
       <ListQualities />
       <CleaningProducts />
       <Gallery />
+      <Services />
     </>
   );
 }
