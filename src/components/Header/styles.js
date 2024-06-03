@@ -91,7 +91,6 @@ export const Search = styled.div`
   input {
     outline: none;
     border: none;
-
     width: 100%;
   }
 `;

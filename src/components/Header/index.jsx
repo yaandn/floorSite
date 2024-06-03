@@ -1,6 +1,5 @@
-import { Container, Logo, Navigation, Search } from "./styles";
+import { Container, Logo, Navigation } from "./styles";
 import { FaLocationDot, FaPhone } from "react-icons/fa6";
-import { IoIosSearch } from "react-icons/io";
 import LogoImg from "../../assets/logo.png";
 
 export default function Header() {
@@ -36,15 +35,6 @@ export default function Header() {
           </a>
         </div>
       </Navigation>
-      <Search>
-        <IoIosSearch size={22} />
-        <input
-          type="text"
-          name="search"
-          id="search"
-          placeholder="What Are You Looking for?"
-        />
-      </Search>
     </Container>
   );
 }
